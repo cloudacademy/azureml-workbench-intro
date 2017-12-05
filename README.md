@@ -10,3 +10,8 @@ This file contains text you can copy and paste for the examples in Cloud Academy
 
 ### Basic Data Preparation
 Rename columns to: Sepal Length, Sepal Width, Petal Length, Petal Width, Species  
+
+### Conclusion
+[Azure Machine Learning Workbench documentation](https://docs.microsoft.com/azure/machine-learning)  
+[Cloud Academy community forums](http://cloudacademy.com/community)  
+support@cloudacademy.com
