@@ -15,6 +15,10 @@ Rename columns to: Sepal Length, Sepal Width, Petal Length, Petal Width, Species
 [Docker Installation](https://docs.docker.com/engine/installation/#desktop)  
 [Docker Toolbox Installation](https://docs.docker.com/toolbox/overview)  
 
+### Advanced Data Preparation
+[Boston Hubway dataset](https://s3.amazonaws.com/hubway-data/index.html)  
+[Boston weather data](https://azuremluxcdnprod001.blob.core.windows.net/docs/azureml/bikeshare/BostonWeather.csv) from [NOAA](http://www.noaa.gov)  
+
 ### Conclusion
 [Azure Machine Learning Workbench documentation](https://docs.microsoft.com/azure/machine-learning)  
 [Cloud Academy community forums](http://cloudacademy.com/community)  
