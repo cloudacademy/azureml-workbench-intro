@@ -21,5 +21,4 @@ Rename columns to: Sepal Length, Sepal Width, Petal Length, Petal Width, Species
 
 ### Conclusion
 [Azure Machine Learning Workbench documentation](https://docs.microsoft.com/azure/machine-learning)  
-[Cloud Academy community forums](http://cloudacademy.com/community)  
 support@cloudacademy.com
