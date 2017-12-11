@@ -14,6 +14,18 @@ Rename columns to: Sepal Length, Sepal Width, Petal Length, Petal Width, Species
 ### Deploying a Model
 [Docker Installation](https://docs.docker.com/engine/installation/#desktop)  
 [Docker Toolbox Installation](https://docs.docker.com/toolbox/overview)  
+```
+az ml env setup -n local --location westcentralus
+az ml env show -g localrg -n local
+az ml account modelmanagement set -n ModelMgmt -g ml-resources
+az ml env set -n local -g localrg
+az ml env show
+export AML_MODEL_DC_STORAGE="<connection string>"
+az ml env show -v
+az ml service create realtime -f score_iris.py --model-file model.pkl -s service_schema.json -n irisapp -r python --collect-model-data true
+az ml service usage realtime -i irisapp
+az ml service keys realtime -i irisapp
+```
 
 ### Advanced Data Preparation
 [Boston Hubway dataset](https://s3.amazonaws.com/hubway-data/index.html)  
