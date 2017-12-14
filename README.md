@@ -13,7 +13,6 @@ Rename columns to: Sepal Length, Sepal Width, Petal Length, Petal Width, Species
 
 ### Deploying a Model
 [Docker Installation](https://docs.docker.com/engine/installation/#desktop)  
-[Docker Toolbox Installation](https://docs.docker.com/toolbox/overview)  
 ```
 az ml env setup -n local --location westcentralus
 az ml env show -g localrg -n local
